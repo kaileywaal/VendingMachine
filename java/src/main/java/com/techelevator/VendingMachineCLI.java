@@ -100,12 +100,15 @@ public class VendingMachineCLI {
 	}
 
 	private void feedMoney() {
-		String[] validAmounts = {"$1", "$5", "$10", "$20"};
+		String[] validAmounts = {"$1", "$5", "$10", "$20", "Cancel"};
 		boolean askAgain = true;
 
 		while (askAgain) {
 			System.out.println("How much money would you like to pay? Whole dollar amounts only");
 			String choice = (String) menu.getChoiceFromOptions(validAmounts);
+			if(choice.equals("Cancel")) {
+				break;
+			}
 			choice = choice.substring(1);
 			BigDecimal moneyInput = new BigDecimal(choice);
 			vendingMachine.addMoney(moneyInput);
