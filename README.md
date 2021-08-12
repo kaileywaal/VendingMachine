@@ -1,6 +1,6 @@
-# Vending Machine Software
+## Vending Machine Software
 
-## The Task
+### The Task
 Develop an application for the newest vending machine distributor,Umbrella Corp. They've released a new vending machine, Vendo-Matic 800, that is integrated with everyone's bank accounts, allowing customers to purchase products from their computers for their convenience.
 
 ### Application Functionality
@@ -75,3 +75,6 @@ process menu:
     report that shows the total sales since the machine was started. The name of the
     file must include the date and time so each sales report is uniquely named.
     - An example of the output format is provided below.
+
+## The Developers
+This Vending Machine program was built as a capstone project with two others (Bryan McClain and Elton Eze) during a 14 week coding bootcamp at [Tech Elevator](https://www.techelevator.com/).
